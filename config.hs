@@ -29,7 +29,7 @@ hosts =
 -- An example host.
 cardano :: Host
 cardano =
-    host "cardano.hydra.bzh" $
+    host "ec2-15-188-62-75.eu-west-3.compute.amazonaws.com" $
         props
             & osDebian Unstable X86_64
             & Apt.stdSourcesList
